@@ -19,7 +19,7 @@ import numpy as np
 
 plt.style.use("ggplot")  # Стили графиков
 
-df = pd.read_csv('/Users/drous3tte/Documents/2_Курс/Анализ данных/wine+quality/winequality-red.csv', sep=';')
+df = pd.read_csv('/your/path/to/winequality-red.csv', sep=';')
 print(df.head())
 
 names = [i for i in df.columns]  # Заголовки таблицы
